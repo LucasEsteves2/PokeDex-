@@ -1,7 +1,6 @@
 const url = id => `https://pokeapi.co/api/v2/pokemon/${id}`
 
 const fetchPokemon = () => {
-
     const pokemonsPromisses = []
 
     //fazendo um loop para lançar requisição na api e pegar todos os 150 pokemons
@@ -31,10 +30,6 @@ const fetchPokemon = () => {
 
 
         })
-
-
-
-
 
 }
 
